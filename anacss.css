@@ -1,0 +1,207 @@
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #353339;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-box {
+    margin: 0px 10% 0px 10%;
+    border: 2px solid black;
+    border-top: none;
+    border-radius: 2px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #38023B;
+    border-bottom: 1px solid black;
+}
+
+.logoA h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-left: 35px;
+    margin: none;
+}
+
+header span {
+    box-sizing: border-box;
+    text-align: right;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.navbar {
+    color: rgb(188, 196, 204);
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.div-intro {
+    display: flex;
+    align-items: center;
+    min-height: 95vh;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    width: 40%;
+    margin: 0px 20px 0px 10px
+}
+
+.intro h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+}
+
+.intro h3 {
+    font-size: 30px;
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+}
+
+.intro p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.foto-port {
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+    border-width: 4px;
+    border-color: #38023B;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+section img {
+    border-width: 4px;
+    border-color: #38023B;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.ilust-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid black;
+    margin: 10px 0px 10px 0px;
+    max-height: 90vh;
+}
+
+.text-1 {
+    width: 40%;
+    text-align: center;
+}
+
+.text-2 {
+    box-sizing: border-box;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    width: 40%;
+}
+
+.foto-block {
+    max-width: 60%;
+    margin: 10px 10px 10px 20px;
+}
+
+.foto-block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 10px 20px 10px 20px;
+    max-height: 100%;
+    max-width: 60%;
+}
+
+section.ilust-box img {
+    box-sizing: border-box;
+    border-radius: 2px;
+    max-height: 85vh;
+    max-width: 100%;
+}
+
+button {
+    background: none;
+    color: #a288e3;
+    border: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em 2em;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+a:hover {
+    transition: all;
+    text-decoration: black underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-block:hover {
+    transform: scale(1.08);
+}
+
+.footer-underline {
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 65%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    padding: 0px 20%;
+}
+
+footer a img {
+    max-width: 1.7em;
+    max-height: 1.7em;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    color: black;
+    box-sizing: border-box;
+    padding-left: 2%;
+    text-decoration: none;
+}
